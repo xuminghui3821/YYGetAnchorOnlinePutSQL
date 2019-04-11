@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{f68fe1b4-67cb-4e0c-82e1-2942c1cc759a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cmd">
+      <UniqueIdentifier>{44674e66-3b58-4879-b340-5df8ed067b22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMysql.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_reader.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_value.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_writer.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\%40EngineeringProject\%40c++\YY采集入数据库\数据库\UniCodec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CMysql.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="json\assertions.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\autolink.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\config.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\features.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\forwards.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_batchallocator.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_stools.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_tool.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\reader.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\value.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\version.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json\writer.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\cmd.h">
+      <Filter>cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\CmdDB.h">
+      <Filter>cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\CmdDoc.h">
+      <Filter>cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\cmddoc1.h">
+      <Filter>cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\cmddoc2.h">
+      <Filter>cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\cmdenc.h">
+      <Filter>cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\cmderr.h">
+      <Filter>cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\CmdFTP.h">
+      <Filter>cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\CmdMySQL.h">
+      <Filter>cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\cmdprj.h">
+      <Filter>cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\cmdsvr.h">
+      <Filter>cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\cmdver.h">
+      <Filter>cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\comlib.h">
+      <Filter>cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\%40EngineeringProject\%40c++\YY采集入数据库\数据库\UniCodec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="json\json_internalarray.inl">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="json\json_internalmap.inl">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="json\json_valueiterator.inl">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="cmd\CmdDoc.inl">
+      <Filter>cmd</Filter>
+    </None>
+    <None Include="cmd\cmddoc1.inl">
+      <Filter>cmd</Filter>
+    </None>
+    <None Include="cmd\cmddoc2.inl">
+      <Filter>cmd</Filter>
+    </None>
+  </ItemGroup>
+</Project>
